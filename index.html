@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Satya Sreeja | AI &amp; Cloud Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem("satya-theme");
+        if (stored === "light" || stored === "dark") {
+          document.documentElement.setAttribute("data-theme", stored);
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="site-premium">
+
+  <nav class="site-nav" aria-label="Primary">
+    <div class="site-nav__bar">
+      <div class="theme-toggle" role="group" aria-label="Color theme">
+        <button type="button" class="theme-toggle__btn" data-theme-value="light" aria-pressed="false">Light</button>
+        <button type="button" class="theme-toggle__btn" data-theme-value="dark" aria-pressed="true">Night</button>
+      </div>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#ai-programs">AI Programs</a></li>
+        <li><a href="#certificates">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<section id="hero" class="hero section-block section-block--hero section-reveal" aria-labelledby="hero-heading">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="section-inner">
+  <div class="hero-container">
+    <div class="hero-photo">
+      <div class="hero-photo-frame">
+        <img src="images/Profile.png" alt="Satya Sreeja Chalasani photo">
+      </div>
+    </div>
+    <div class="hero-text">
+      <p class="hero-eyebrow">Portfolio · AI &amp; Cloud</p>
+      <h1 id="hero-heading">Satya Sreeja Chalasani</h1>
+      <p class="hero-tagline">AI &amp; Cloud Software Engineer · AWS Certified Solutions Architect</p>
+      <div class="hero-actions">
+        <a href="resume/Satya_Sreeja_Chalasani.pdf" class="btn btn-primary" download>Resume</a>
+        <a href="https://www.linkedin.com/in/satya-sreeja-chalasani/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/satyasreejachalasani" class="btn btn-outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+  <section class="section-block section-reveal" id="about" aria-labelledby="about-heading">
+    <div class="section-inner">
+    <h2 id="about-heading"><span class="section-label">01</span> About Me</h2>
+    <p>I'm Satya Sreeja Chalasani, an AI and Cloud Software Engineer with 7+ years of experience across software development, full-stack engineering, cloud operations, data engineering, and AI application development.</p>
+    <p>I build full-stack applications with React.js, Angular, TypeScript, Python, FastAPI, Flask, and PostgreSQL, and develop Generative AI systems — including RAG pipelines and agentic workflows — with LangChain, LangGraph, OpenAI, Gemini, FAISS, and ChromaDB.</p>
+    <p>My work spans AWS, Microsoft Azure, and GCP, including cloud infrastructure, data processing, Docker, Terraform, and CI/CD automation. I am an AWS Certified Solutions Architect – Associate with hands-on experience in application deployment, infrastructure provisioning, monitoring, testing, and troubleshooting.</p>
+    <p>I am currently focused on shipping production-ready AI applications that combine reliable backend services, cloud infrastructure, and thoughtful user experiences.</p>
+    </div>
+  </section>
+
+<section class="section-block section-reveal" id="education" aria-labelledby="education-heading">
+  <div class="section-inner">
+    <h2 id="education-heading"><span class="section-label">02</span> Education</h2>
+    <article class="card education-card" aria-label="Graduate education at UNT">
+      <div class="education-card__body">
+        <div class="education-card__content">
+          <div class="education-card__top">
+            <div class="education-card__logo-wrap">
+              <img src="images/unt.png" alt="" class="education-card__logo" width="48" height="48" loading="lazy" decoding="async" />
+            </div>
+            <div class="education-card__identity">
+              <p class="education-card__degree">Master of Science in Data Science</p>
+              <div class="education-card__meta">
+                <span class="education-card__meta-item">
+                  <svg class="education-card__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" focusable="false">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                  </svg>
+                  <span>University of North Texas (UNT)</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <ul class="education-card__details">
+            <li><strong class="education-card__bullet-label">Key Coursework:</strong> Data Engineering, Artificial Intelligence, Big Data Analytics, Machine Learning</li>
+            <li><strong class="education-card__bullet-label">Focus Areas:</strong> Cloud Computing, Generative AI, RAG Systems, Backend Engineering</li>
+            <li>Building production-ready AI applications, cloud-native services, and full-stack systems that turn data and models into reliable business impact.</li>
+          </ul>
+        </div>
+        <figure class="education-photo">
+          <img src="images/unt-graduation.png" alt="Satya Sreeja Chalasani at UNT graduation ceremony" width="320" height="480" loading="lazy" decoding="async" />
+        </figure>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section-block section-reveal" id="skills" aria-labelledby="skills-heading">
+  <div class="section-inner">
+  <h2 id="skills-heading"><span class="section-label">03</span> Skills</h2>
+  <p class="skills-section-intro">
+    Core technologies at a glance — also reflected across <a href="#experience">Experience</a> and <a href="#certificates">Certifications</a>.
+  </p>
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <h4>Frontend Development</h4>
+      <p class="skill-card-body">React.js, Angular 15, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS, Reactive Forms, RxJS, routing, route guards, services, directives, pipes.</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Backend Development</h4>
+      <p class="skill-card-body">Python, FastAPI, Flask, REST API development.</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>AI / Generative AI</h4>
+      <p class="skill-card-body">LLMs, RAG, LangChain, LangGraph, OpenAI API, Gemini API, Hugging Face, prompt engineering, embeddings.</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Vector Databases &amp; Search</h4>
+      <p class="skill-card-body">FAISS, ChromaDB, semantic search, vector indexing.</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>AWS Cloud</h4>
+      <p class="skill-card-body">EC2, S3, IAM, VPC, Subnets, Security Groups, CloudWatch, AWS CLI, ALB, Auto Scaling Groups, Lambda, API Gateway, RDS, DynamoDB, ECS Fargate.</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Azure &amp; GCP</h4>
+      <p class="skill-card-body">Azure Virtual Machines, Azure Storage, Azure Monitor, networking; Google Cloud Dataproc, PySpark.</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>DevOps &amp; Infrastructure</h4>
+      <p class="skill-card-body">Docker, Terraform, Infrastructure as Code (IaC), Git, GitHub, GitHub Actions, CI/CD, Linux, Windows.</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Databases</h4>
+      <p class="skill-card-body">PostgreSQL, SQLite, SQL.</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Testing, Monitoring &amp; Quality</h4>
+      <p class="skill-card-body">Pytest, Postman, Swagger / OpenAPI, unit &amp; integration testing, CloudWatch, Splunk, application logging, incident management.</p>
+    </div>
+
+  </div>
+  </div>
+</section>
+
+
+<section class="section-block section-reveal" id="experience" aria-labelledby="experience-heading">
+  <div class="section-inner">
+  <h2 id="experience-heading"><span class="section-label">04</span> Experience</h2>
+
+  <div class="experience-section">
+    <div class="experience-stack">
+    <div class="experience-card">
+      <div class="project-header">
+        <img src="images/cbre.svg" alt="CBRE logo" class="project-icon project-icon--company">
+        <h4>AI &amp; Cloud Software Engineer</h4>
+      </div>
+      <p class="org">Client: CBRE, Texas, USA <span>| Jan 2025 – Present</span></p>
+      <ul>
+        <li>Developed Python-based AI application services using FastAPI and REST APIs, integrating OpenAI and Gemini APIs for natural-language processing, contextual question answering, content generation, and information extraction.</li>
+        <li>Implemented RAG pipelines covering document ingestion, text extraction, chunking, embedding generation, vector storage, and similarity-based retrieval using FAISS and ChromaDB.</li>
+        <li>Developed multi-step agentic AI workflows using LangChain and LangGraph, integrating LLMs, external tools, and application services; optimized prompts and retrieval strategies for response relevance.</li>
+        <li>Built interactive React.js, TypeScript, and Tailwind CSS frontend components integrated with backend AI services through REST APIs.</li>
+        <li>Containerized applications with Docker and deployed on AWS EC2 with IAM, security groups, VPCs, and networking; managed S3, CloudWatch, ALB, and Auto Scaling Groups.</li>
+        <li>Worked with AWS Lambda, API Gateway, RDS, DynamoDB, and ECS Fargate; provisioned infrastructure with Terraform and maintained CI/CD with GitHub Actions.</li>
+        <li>Implemented application logging, exception handling, and API validation using Postman, Swagger/OpenAPI, and Pytest.</li>
+      </ul>
+      <p class="experience-stack-line"><strong>Tech stack:</strong> Generative AI, LLMs, RAG, LangChain, LangGraph, OpenAI, Gemini, FAISS, ChromaDB, React.js, TypeScript, Python, FastAPI, PostgreSQL, AWS (EC2, S3, Lambda, RDS, DynamoDB, ECS Fargate), Terraform, Docker, GitHub Actions</p>
+    </div>
+
+    <div class="experience-card">
+      <div class="project-header">
+        <img src="images/salesforce.svg" alt="Salesforce logo" class="project-icon project-icon--company">
+        <h4>Software Engineer — Cloud &amp; Application Development</h4>
+      </div>
+      <p class="org">Client: Salesforce, Texas, USA <span>| Sep 2022 – Jul 2024</span></p>
+      <ul>
+        <li>Developed interactive frontend components using Angular 15, JavaScript, and TypeScript, with HTML5, CSS3, and Tailwind CSS for responsive application interfaces.</li>
+        <li>Implemented Angular Reactive Forms, RxJS, services, routing, route guards, custom directives, and pipes for form validation, async operations, and maintainable navigation.</li>
+        <li>Integrated frontend components with backend REST APIs, handling requests, responses, application state, and dynamic data rendering.</li>
+        <li>Developed backend services with Python, FastAPI, and Flask; implemented PostgreSQL and SQL operations for data retrieval, insertion, updates, and validation.</li>
+        <li>Validated APIs with Postman and Swagger/OpenAPI, and performed unit and integration testing with Pytest.</li>
+        <li>Supported AWS EC2 deployments, containerized applications with Docker, and used GitHub Actions for CI/CD builds, testing, and deployment.</li>
+      </ul>
+      <p class="experience-stack-line"><strong>Tech stack:</strong> Angular 15, TypeScript, RxJS, Python, FastAPI, Flask, REST APIs, PostgreSQL, AWS EC2, Docker, GitHub Actions, Postman, Pytest</p>
+    </div>
+
+    <div class="experience-card">
+      <div class="project-header">
+        <img src="images/first-databank.svg" alt="First Databank logo" class="project-icon project-icon--company">
+        <h4>Software Developer</h4>
+      </div>
+      <p class="org">Client: First Databank, California, USA <span>| Apr 2021 – Aug 2022</span></p>
+      <ul>
+        <li>Developed interactive React.js frontend components integrated with backend REST APIs to retrieve, submit, and display application data.</li>
+        <li>Developed Python scripts and backend components to support business logic, data retrieval, integrations, and data-processing workflows.</li>
+        <li>Used Google Cloud Dataproc and PySpark to process, clean, transform, and standardize structured datasets for downstream workflows.</li>
+        <li>Implemented data validation and quality checks for missing values, duplicates, inconsistent formats, and discrepancies across PostgreSQL and SQLite.</li>
+        <li>Integrated backend functionality through REST APIs and validated endpoints with Postman and Swagger/OpenAPI.</li>
+        <li>Performed functional and integration testing with Pytest, and investigated application errors through logs and reproduction.</li>
+      </ul>
+      <p class="experience-stack-line"><strong>Tech stack:</strong> React.js, Python, SQL, PostgreSQL, SQLite, GCP Dataproc, PySpark, REST APIs, Git, Postman, Pytest, Swagger</p>
+    </div>
+
+    <div class="experience-card">
+      <div class="project-header">
+        <img src="images/zf-group.svg" alt="ZF Group logo" class="project-icon project-icon--company">
+        <h4>Software Developer</h4>
+      </div>
+      <p class="org">Client: ZF Group, Michigan, USA <span>| Dec 2018 – Mar 2021</span></p>
+      <ul>
+        <li>Developed and maintained Python application components and automation scripts for business logic, data processing, and validation activities.</li>
+        <li>Built frontend components with JavaScript, HTML5, and CSS3, integrating them with backend REST APIs for application functionality and data exchange.</li>
+        <li>Wrote SQL queries and performed relational database operations including retrieval, filtering, joins, updates, and validation.</li>
+        <li>Supported Microsoft Azure operations including Virtual Machines, Azure Storage, Azure Monitor, networking, and Windows Server environments.</li>
+        <li>Used Splunk to review application logs, investigate errors, and support root-cause analysis and incident management.</li>
+        <li>Performed unit, functional, and integration testing with Postman; collaborated with developers and QA on releases and defect resolution.</li>
+      </ul>
+      <p class="experience-stack-line"><strong>Tech stack:</strong> JavaScript, Python, SQL, REST APIs, Microsoft Azure, Splunk, Git, Postman, unit and integration testing</p>
+    </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="section-block section-reveal" id="ai-programs" aria-labelledby="ai-programs-heading">
+  <div class="section-inner">
+  <h2 id="ai-programs-heading"><span class="section-label">05</span> AI Programs &amp; Workshops</h2>
+
+  <div class="experience-stack">
+    <div class="experience-card">
+      <div class="experience-card__body">
+        <div class="experience-card__content">
+          <h4>Dallas AI Summer Program</h4>
+          <p class="org">Southern Methodist University (SMU) <span>| Summer 2025</span></p>
+          <ul>
+            <li>Selected for a competitive 8-week applied AI program featuring mentorship from leaders across AI, cloud, and enterprise technology.</li>
+            <li>Served as the primary <span class="text-accent">Solution Engineer</span> for <span class="text-accent">Intelli AI</span>, leading the design and implementation of core features including NLP-based talent matching, semantic similarity analysis, and workflow automation.</li>
+            <li>Designed and developed practical AI solutions addressing real-world business challenges under industry mentorship.</li>
+            <li>Collaborated with multidisciplinary teams to translate business requirements into scalable AI-driven solutions.</li>
+            <li>Participated in technical workshops, project showcases, and collaborative problem-solving sessions focused on applied AI and machine learning.</li>
+            <li>Presented Intelli AI's technical architecture, implementation approach, and outcomes during the program's final showcase.</li>
+          </ul>
+        </div>
+        <figure class="experience-photo">
+          <img src="images/ai-programs/dallas-ai-showcase.png" alt="Presenting Intelli AI at the Dallas AI Summer Program final showcase at SMU" width="320" height="240" loading="lazy" decoding="async" />
+        </figure>
+      </div>
+    </div>
+
+    <div class="experience-card">
+      <div class="experience-card__body">
+        <figure class="experience-photo">
+          <img src="images/ai-programs/build-with-ai-workshop.png" alt="Collaborative coding session during the Build with AI Workshop Series at The Spark, UNT" width="320" height="240" loading="lazy" decoding="async" />
+        </figure>
+        <div class="experience-card__content">
+          <h4>Build with AI Workshop Series</h4>
+          <p class="org">The Spark, University of North Texas (UNT) <span>| Summer 2025</span></p>
+          <ul>
+            <li>Participated in the Build with AI Workshop Series, gaining hands-on experience in designing and developing Generative AI applications through collaborative coding sessions.</li>
+            <li>Collaborated with fellow participants to build a generative AI recipe application, applying prompt engineering, API integration, Flask, and full-stack development.</li>
+            <li>Strengthened practical skills in AI application development, debugging, rapid prototyping, teamwork, and iterative software development.</li>
+            <li>Worked alongside mentors and peers to transform ideas into functional AI-powered applications while following modern software engineering practices.</li>
+            <li>The workshop strengthened my interest in building intelligent, user-focused AI solutions and inspired continued development of production-ready AI applications.</li>
+          </ul>
+          <p><strong>Technologies:</strong> Python • Flask • Generative AI • Prompt Engineering • REST APIs • HTML/CSS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<div class="modal-overlay js-modal-overlay" id="awsCertModal" aria-hidden="true">
+  <div class="project-modal" role="dialog" aria-modal="true" aria-labelledby="awsCertModalTitle">
+    <button class="modal-close" type="button" aria-label="Close details">x</button>
+    <h3 id="awsCertModalTitle">AWS Certified Solutions Architect – Associate (SAA-C03)</h3>
+    <p>Digital badge issued by Amazon Web Services Training and Certification via Credly.</p>
+    <div class="modal-section">
+      <figure class="screenshot-thumb screenshot-thumb--single">
+        <img src="images/certificates/aws-solutions-architect-associate.png" width="400" height="400" alt="AWS Certified Solutions Architect Associate badge for Satya Sreeja Chalasani, valid through June 2029" loading="lazy" decoding="async" />
+      </figure>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay js-modal-overlay" id="oracleCertModal" aria-hidden="true">
+  <div class="project-modal" role="dialog" aria-modal="true" aria-labelledby="oracleCertModalTitle">
+    <button class="modal-close" type="button" aria-label="Close details">x</button>
+    <h3 id="oracleCertModalTitle">Oracle Cloud Infrastructure 2025 Certified Generative AI Professional</h3>
+    <p>Certificate of Recognition issued by Oracle University.</p>
+    <div class="modal-section">
+      <figure class="screenshot-thumb screenshot-thumb--single">
+        <img src="images/oracle-certificate.png" width="800" height="563" alt="Oracle Certified Professional certificate for Satya Sreeja Chalasani with valid till date October 30, 2027" loading="lazy" decoding="async" />
+      </figure>
+    </div>
+  </div>
+</div>
+
+<section class="section-block section-block--compact section-reveal" id="certificates" aria-labelledby="certificates-heading">
+  <div class="section-inner">
+  <h2 id="certificates-heading"><span class="section-label">06</span> Certifications</h2>
+  <p class="cert-section-intro">
+    Industry-recognized credentials across AI systems, cloud platforms, and production-ready agent development.
+  </p>
+
+  <ul class="cert-list">
+    <li class="cert-card cert-card--featured" data-earned-date="2026-06-01">
+      <div class="cert-card-icon">
+        <img src="images/certs/anthropic.png" width="48" height="48" alt="Anthropic" loading="lazy" decoding="async" />
+      </div>
+      <div class="cert-card-main">
+        <div class="cert-card-head">
+          <h3>Claude 101</h3>
+        </div>
+        <dl class="cert-meta">
+          <div>
+            <dt>Issuer</dt>
+            <dd>Anthropic</dd>
+          </div>
+          <div>
+            <dt>Date</dt>
+            <dd>June 2026</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="cert-card-actions">
+        <a href="https://verify.skilljar.com/c/o2z9pm264upq" class="btn btn-primary cert-action-btn" target="_blank" rel="noopener noreferrer">View Credential</a>
+      </div>
+    </li>
+
+    <li class="cert-card cert-card--featured" data-earned-date="2026-03-01">
+      <div class="cert-card-icon">
+        <img src="images/certs/anthropic.png" width="48" height="48" alt="Anthropic" loading="lazy" decoding="async" />
+      </div>
+      <div class="cert-card-main">
+        <div class="cert-card-head">
+          <h3>Introduction to Model Context Protocol</h3>
+        </div>
+        <dl class="cert-meta">
+          <div>
+            <dt>Issuer</dt>
+            <dd>Anthropic</dd>
+          </div>
+          <div>
+            <dt>Date</dt>
+            <dd>March 2026</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="cert-card-actions">
+        <a href="https://verify.skilljar.com/c/4pigxgw55c9y" class="btn btn-primary cert-action-btn" target="_blank" rel="noopener noreferrer">View Credential</a>
+      </div>
+    </li>
+
+    <li class="cert-card cert-card--featured" data-earned-date="2026-03-01">
+      <div class="cert-card-icon">
+        <img src="images/certs/anthropic.png" width="48" height="48" alt="Anthropic" loading="lazy" decoding="async" />
+      </div>
+      <div class="cert-card-main">
+        <div class="cert-card-head">
+          <h3>AI Fluency: Framework &amp; Foundations</h3>
+        </div>
+        <dl class="cert-meta">
+          <div>
+            <dt>Issuer</dt>
+            <dd>Anthropic</dd>
+          </div>
+          <div>
+            <dt>Date</dt>
+            <dd>March 2026</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="cert-card-actions">
+        <a href="https://verify.skilljar.com/c/ce9afgf9zo99" class="btn btn-primary cert-action-btn" target="_blank" rel="noopener noreferrer">View Credential</a>
+      </div>
+    </li>
+
+    <li class="cert-card cert-card--featured" data-earned-date="2026-06-30">
+      <div class="cert-card-icon">
+        <img src="images/certs/aws.png" width="48" height="48" alt="AWS Certified Solutions Architect Associate" loading="lazy" decoding="async" />
+      </div>
+      <div class="cert-card-main">
+        <div class="cert-card-head">
+          <h3>AWS Certified Solutions Architect – Associate (SAA-C03)</h3>
+        </div>
+        <dl class="cert-meta cert-meta--triple">
+          <div>
+            <dt>Issuer</dt>
+            <dd>Amazon Web Services</dd>
+          </div>
+          <div>
+            <dt>Date</dt>
+            <dd>June 2026</dd>
+          </div>
+          <div>
+            <dt>Valid Till</dt>
+            <dd>June 2029</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="cert-card-actions cert-card-actions--split">
+        <a href="https://www.credly.com/badges/ab9bd659-4ce0-41ec-9323-51248e9ff8f3/public_url" class="btn btn-primary cert-action-btn" target="_blank" rel="noopener noreferrer">View Credential</a>
+        <button type="button" class="btn btn-primary cert-action-btn project-details-link" data-modal-open="awsCertModal">View Badge</button>
+      </div>
+    </li>
+
+    <li class="cert-card" data-earned-date="2025-10-01">
+      <div class="cert-card-icon">
+        <img src="images/certs/oracle.png" width="48" height="48" alt="Oracle" loading="lazy" decoding="async" />
+      </div>
+      <div class="cert-card-main">
+        <div class="cert-card-head">
+          <h3>Oracle Cloud Infrastructure 2025 Certified Generative AI Professional</h3>
+        </div>
+        <dl class="cert-meta cert-meta--triple">
+          <div>
+            <dt>Issuer</dt>
+            <dd>Oracle</dd>
+          </div>
+          <div>
+            <dt>Date</dt>
+            <dd>October 2025</dd>
+          </div>
+          <div>
+            <dt>Valid Till</dt>
+            <dd>October 2027</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="cert-card-actions cert-card-actions--split">
+        <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=A35CABAA16FDC2853F6F32907B64107A6AE5B84B775E4E1366D41842378D38A5" class="btn btn-primary cert-action-btn" target="_blank" rel="noopener noreferrer">View Credential</a>
+        <button type="button" class="btn btn-primary cert-action-btn project-details-link" data-modal-open="oracleCertModal">View Certificate</button>
+      </div>
+    </li>
+
+    <li class="cert-card" data-earned-date="2023-02-01">
+      <div class="cert-card-icon">
+        <img src="images/certs/microsoft-azure.png" width="48" height="48" alt="Microsoft Certified Fundamentals" loading="lazy" decoding="async" />
+      </div>
+      <div class="cert-card-main">
+        <div class="cert-card-head">
+          <h3>Microsoft Certified: Azure Fundamentals (AZ-900)</h3>
+        </div>
+        <dl class="cert-meta">
+          <div>
+            <dt>Issuer</dt>
+            <dd>Microsoft</dd>
+          </div>
+          <div>
+            <dt>Date</dt>
+            <dd>February 2023</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="cert-card-actions">
+        <a href="https://learn.microsoft.com/api/credentials/share/en-us/ChKusumaSatyaSreeja-7423/787ADADBC0410834?sharingId" class="btn btn-primary cert-action-btn" target="_blank" rel="noopener noreferrer">View Credential</a>
+      </div>
+    </li>
+  </ul>
+  </div>
+</section>
+
+
+<section class="section-block section-block--compact section-block--contact section-reveal" id="contact" aria-labelledby="contact-heading">
+  <div class="section-inner">
+  <h2 id="contact-heading"><span class="section-label">07</span> Get in Touch</h2>
+  <p class="contact-lead">Actively seeking AI and Cloud Software Engineering opportunities. Let’s build production-ready systems together.</p>
+  <div class="contact-meta">
+    <p class="contact-meta-line">Open to Full-Time Opportunities</p>
+    <p class="contact-meta-line">Remote · Hybrid · On-Site · Open to Relocation</p>
+  </div>
+  <div class="contact-actions" role="group" aria-label="Contact and social links">
+    <a href="mailto:satyasreejachalasani@gmail.com" class="btn btn-primary">Email</a>
+    <a href="https://www.linkedin.com/in/satya-sreeja-chalasani/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="https://github.com/satyasreejachalasani" class="btn btn-primary" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://medium.com/@satyasreejachalasani" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Medium</a>
+  </div>
+  <p class="contact-response-note">Usually responds within 24 hours</p>
+  </div>
+</section>
+
+  <footer class="site-footer">
+    <p>&copy; Satya Sreeja Chalasani</p>
+  </footer>
+
+<script>
+  const modalOverlays = document.querySelectorAll(".js-modal-overlay");
+
+  const syncBodyScroll = () => {
+    const anyOpen = [...modalOverlays].some((el) => el.classList.contains("is-open"));
+    document.body.style.overflow = anyOpen ? "hidden" : "";
+  };
+
+  const openProjectModal = (overlay) => {
+    overlay.classList.add("is-open");
+    overlay.setAttribute("aria-hidden", "false");
+    syncBodyScroll();
+  };
+
+  const closeProjectModal = (overlay) => {
+    overlay.classList.remove("is-open");
+    overlay.setAttribute("aria-hidden", "true");
+    syncBodyScroll();
+  };
+
+  document.querySelectorAll("[data-modal-open]").forEach((btn) => {
+    const id = btn.getAttribute("data-modal-open");
+    const overlay = document.getElementById(id);
+    if (!overlay) return;
+    btn.addEventListener("click", () => openProjectModal(overlay));
+  });
+
+  modalOverlays.forEach((overlay) => {
+    const closeBtn = overlay.querySelector(".modal-close");
+    if (closeBtn) {
+      closeBtn.addEventListener("click", () => closeProjectModal(overlay));
+    }
+    overlay.addEventListener("click", (event) => {
+      if (event.target === overlay) closeProjectModal(overlay);
+    });
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape") return;
+    modalOverlays.forEach((overlay) => {
+      if (overlay.classList.contains("is-open")) closeProjectModal(overlay);
+    });
+  });
+
+  const revealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0 }
+  );
+
+  function revealFromHash() {
+    const id = location.hash.slice(1);
+    if (!id) return;
+    const target = document.getElementById(id);
+    if (!target) return;
+    if (target.classList.contains("section-reveal") || target.classList.contains("reveal")) {
+      target.classList.add("visible");
+      revealObserver.unobserve(target);
+    }
+  }
+
+  document.querySelectorAll(".reveal").forEach((el) => revealObserver.observe(el));
+  document.querySelectorAll(".section-reveal").forEach((el) => revealObserver.observe(el));
+
+  revealFromHash();
+  window.addEventListener("hashchange", revealFromHash);
+
+  (function sortCertificationsByDate() {
+    const list = document.querySelector(".cert-list");
+    if (!list) return;
+
+    const getEarnedTime = (card) => {
+      const isoDate = card.getAttribute("data-earned-date");
+      if (isoDate) {
+        const time = new Date(isoDate).getTime();
+        if (!Number.isNaN(time)) return time;
+      }
+
+      const dateLabel = [...card.querySelectorAll(".cert-meta dt")].find(
+        (dt) => dt.textContent.trim() === "Date"
+      );
+      if (!dateLabel) return 0;
+      const dateText = dateLabel.nextElementSibling?.textContent?.trim() ?? "";
+      const time = new Date(dateText).getTime();
+      return Number.isNaN(time) ? 0 : time;
+    };
+
+    const cards = [...list.querySelectorAll(":scope > .cert-card")].sort(
+      (a, b) => getEarnedTime(b) - getEarnedTime(a)
+    );
+
+    cards.forEach((card) => list.appendChild(card));
+
+    cards.forEach((card) => {
+      card.querySelector(".cert-badge")?.remove();
+    });
+    const newestHead = cards[0]?.querySelector(".cert-card-head");
+    if (newestHead) {
+      const badge = document.createElement("span");
+      badge.className = "cert-badge";
+      badge.textContent = "Latest";
+      newestHead.appendChild(badge);
+    }
+  })();
+
+  (function initThemeToggle() {
+    const root = document.documentElement;
+    const storageKey = "satya-theme";
+    const buttons = document.querySelectorAll(".theme-toggle__btn[data-theme-value]");
+
+    function applyTheme(theme) {
+      if (theme !== "light" && theme !== "dark") return;
+      root.setAttribute("data-theme", theme);
+      try {
+        localStorage.setItem(storageKey, theme);
+      } catch (_) {}
+      buttons.forEach((btn) => {
+        const active = btn.getAttribute("data-theme-value") === theme;
+        btn.classList.toggle("is-active", active);
+        btn.setAttribute("aria-pressed", active ? "true" : "false");
+      });
+    }
+
+    applyTheme(root.getAttribute("data-theme") || "dark");
+
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", () => applyTheme(btn.getAttribute("data-theme-value")));
+    });
+  })();
+</script>
+
+</body>
+</html>
