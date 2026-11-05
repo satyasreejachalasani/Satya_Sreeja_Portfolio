@@ -1668,7 +1668,7 @@ button.project-details-link {
 .experience-card .org {
   font-weight: 600;
   color: var(--text-secondary);
-  margin-bottom: 0.9rem;
+  margin-bottom: 0.35rem;
   font-size: 0.95rem;
 }
 
@@ -1676,6 +1676,13 @@ button.project-details-link {
   font-weight: 400;
   color: var(--text-muted);
   font-style: italic;
+}
+
+.experience-card .experience-project {
+  margin: 0 0 0.9rem;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
 }
 
 .experience-card ul {
