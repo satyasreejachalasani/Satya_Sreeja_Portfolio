@@ -250,9 +250,9 @@ body.site-premium::after {
 
 .hero-copy h1 {
   font-family: var(--font-display);
-  font-size: clamp(2.6rem, 6.2vw, 4.75rem);
+  font-size: clamp(3.15rem, 8vw, 5.75rem);
   font-weight: 600;
-  line-height: 1.05;
+  line-height: 1.02;
   margin: 0 0 1.1rem;
   color: var(--text-primary);
   letter-spacing: -0.03em;
@@ -263,12 +263,12 @@ body.site-premium::after {
 }
 
 .hero-tagline {
-  font-size: clamp(1.05rem, 1.6vw, 1.2rem);
+  font-size: clamp(1.12rem, 1.8vw, 1.3rem);
   color: var(--text-secondary);
   margin: 0 0 2rem;
   font-weight: 400;
   line-height: 1.55;
-  max-width: 28rem;
+  max-width: 30rem;
 }
 
 .hero-actions {
@@ -2333,7 +2333,7 @@ section#certificates.section-block {
   }
 
   .hero-copy h1 {
-    font-size: clamp(2.1rem, 9.5vw, 2.85rem);
+    font-size: clamp(2.55rem, 11vw, 3.5rem);
     margin-bottom: 0.65rem;
     background: none;
     -webkit-text-fill-color: #f7f4ef;
@@ -2345,7 +2345,7 @@ section#certificates.section-block {
     color: rgba(244, 241, 236, 0.88);
     margin-bottom: 1.15rem;
     max-width: 22rem;
-    font-size: 0.98rem;
+    font-size: 1.05rem;
   }
 
   .hero-actions {
